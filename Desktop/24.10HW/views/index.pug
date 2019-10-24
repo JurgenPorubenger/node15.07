@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1 Add Book
+      input(type='text' id='add_book' placeholder='book' )
+      input(type='text' id='add_author' placeholder='author')
+      input(type='text' id='add_edition' placeholder='edition' )
+      button(type='submit' id='add_book_btn') Click!
+  .output
+    h1 Added Books:
+    #books
+
+
+  //h1 Check
+  //    input(type='text' name='book' placeholder='book' )
+  //    input(type='text' name='author' placeholder='author')
+  //    input(type='text' name='edition' placeholder='edition')
+  //    input(type='submit')
+  script(src='./javascripts/main.js')
